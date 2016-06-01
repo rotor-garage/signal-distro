@@ -1,0 +1,5 @@
+Mark   Size   Count  Plated
+
+      0.0450    34     Yes
+ A    0.0200     4     Yes
+ B    0.1260     4     Yes

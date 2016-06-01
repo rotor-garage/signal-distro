@@ -1,0 +1,969 @@
+View {
+Width 1.417322835 
+Height 1.417322835 
+Mag 3.4 
+Center 56.96323m 32.06127m 
+Grid 10 10 
+Index 100 1300 
+PrintScale 0.0 
+FullWidth
+ShowHoles
+ShowNames
+ShowValues
+SolidPads
+VectorText
+SavedFrameString "93 80 1115 697 0 0 1280 777 " 
+PadFillColor 5898 30146 13107 
+GridColor 57344 57344 65280 
+HoleColor 55000 55000 65535 
+BackgroundColor 65535 65535 65535 
+SelectedSignalTraceColor 12345 54321 6789 
+}
+
+Setup {
+Layers 2 
+TraceWidth 10 
+Spacing 10 
+SolderMaskRing 2 
+PreferImperial 
+}
+GerberOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+FlattenCopperFlood no 
+DrillFile DRILL.TXT 
+Aux1File AUX1.GBR 
+Aux2File AUX2.GBR 
+Silk1File SILK1.GBR 
+Silk2File SILK2.GBR 
+Mask1File MASK1.GBR 
+Mask2File MASK2.GBR 
+Layer1File LAYER1.GBR 
+Layer2File LAYER2.GBR 
+Layer3File LAYER3.GBR 
+Layer4File LAYER4.GBR 
+LayerXFile LAYER%d.GBR 
+AuxXFile AUX%d.GBR 
+}
+
+PostscriptOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+}
+
+
+Type '/' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 10 12 }
+}
+
+Type 'A' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 6 12 8.5 4.5 { 3.5 4.5 }
+10 0 }
+}
+
+Type 'D' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 2 12 2 0 8 0 10 2 10 10 }
+}
+
+Type 'S' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 8 4 6 8 6 10 4 10 2 8 0 4 0 2 2 }
+}
+
+Type 'v' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 8 6 0 }
+Path Front
+{ 10 8 6 0 }
+}
+
+Type '0' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 10 }
+Path Front
+{ 6 8 6 4 }
+}
+
+Type '2' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 10 4 12 8 12 10 10 10 8 8 6 2 2 2 0 10 0 }
+}
+
+Type '^' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 9 7 6 11 3 7 }
+}
+
+Type '+' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 6 10 6 }
+Path Front
+{ 6 10 6 2 }
+}
+
+Type 's' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 7 0 4.5 0 }
+Path Front
+{ 2 1 3 0 8.5 0 9.5 1 9.5 3 8.5 4 3 4 2 5 2 7 3 8 8.5 8 9.5 7 }
+}
+
+Type 'F' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 { 8 6 }
+2 0 }
+}
+
+Type 'a' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 0 10 8 }
+Path Front
+{ 2 2.6 2.7 5.1 3.8 6.8 5.2 7.7 6.2 8 7 8 8.4 8 10 7.2 }
+Path Front
+{ 2 2.5 2 1.9 2.1 1.5 2.4 1 3.1 0.6 4.5 0 6.7 0 8.8 0.9 10 2 }
+}
+
+Type 'E' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 { 8 6 }
+2 0 10 0 }
+}
+
+Type '-' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 6 10 6 }
+}
+
+Type 'R' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 { 2 6 }
+10 0 }
+}
+
+Type 'O' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 10 }
+}
+
+Type 'c' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 7.5 8 7.5 7 6 8 5.5 8 4.5 7.5 3 6 2 3.5 2 2.5 2.5 1 4.5 0 7 0 9.5 1.5
+}
+}
+
+Type '1' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 10 6 12 6 0 { 4 0 }
+8 0 }
+}
+
+Type 'N' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 10 0 10 12 }
+}
+
+Type '3' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 10 4 12 8 12 10 10 10 8 8 6 { 6 6 }
+10 4 10 2 8 0 4 0 2 2 }
+}
+
+Type 'l' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 0 4 12 }
+}
+
+Type 'Y' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 6 6 { 10 12 }
+6 0 }
+}
+
+Type 'e' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 4.5 9.5 4.5 9.5 5.5 7 8 4.5 8 2 6 2 2.5 2 2 4 0 8 0 9.5 1 }
+}
+
+Type 'i' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 0.14605m 0.19685m 0.14605m 0 }
+Path Front
+{ 0.14605m 11 0.14605m 0.28575m }
+}
+
+Type 'B' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 { 2 6 }
+10 4 10 2 8 0 2 0 }
+}
+
+Type 'X' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 0 }
+Path Front
+{ 2 0 10 12 }
+}
+
+Type VIA {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Pad A { Circle 50 }
+Pin 1 { A A A 0 0 20 P }
+}
+
+Type '5' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 4 8 8 8 10 6 10 2 8 0 4 0 2 2 }
+}
+
+Type 'm' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 0.14605m 0 0.14605m 5.5 0.19337m 0.20288m 9.5 5.5 9.5 0 }
+Path Front
+{ 2 5.5 0.09827m 0.20288m 0.14582m 0.13948m }
+Path Front
+{ 2 9 2 0 }
+}
+
+Type '.' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 5 0 6 0 6 1 5 1 5 0 }
+}
+
+Type '4' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 8 0 8 12 2 5 10 5 }
+}
+
+Type 'w' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 8 2 2 3.5 0 4.5 0 6 2 { 6 6.5 }
+7.5 0 8.5 0 10 2 10 8 }
+}
+
+Type 'u' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 9.5 8 9.5 0 }
+Path Front
+{ 9.5 2 7.5 0 4 0 2 2 2 8 }
+}
+
+Type 'g' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 9.5 2.5 7 0 4.5 0 2 2.5 2 6 4.5 8 7 8 9.5 5.5 9.5 -2 7 -4.5 4.5 -4.5 2
+-3 }
+}
+
+Type 'T' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 6 0 6 12 { 2 12 }
+10 12 }
+}
+
+Type 'd' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 9.5 12 9.5 0 }
+Path Front
+{ 9.5 5.5 7 8 4.5 8 2 6 2 2.5 4.5 0 7 0 9.5 2.5 }
+}
+
+Type 'M' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 6 6 10 12 10 0 }
+}
+
+Type 'W' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 4 0 6 12 8 0 10 12 }
+}
+
+Type '7' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 12 4 0 }
+}
+
+Type 't' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 10 4 1 5 0 6.5 0 7.5 1 }
+Path Front
+{ 2 8 6 8 }
+}
+
+Type 'G' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 5 8 5 }
+}
+
+Type '6' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 5 8 7 4 7 2 5 }
+}
+
+Type 'C' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 }
+}
+
+Type 'r' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 9 2 0 }
+Path Front
+{ 9.5 6.5 7 8 4.5 8 2 6.5 }
+}
+
+Type 'o' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 2.5 2 5.5 4.5 8 7 8 9.5 5.5 9.5 2.5 7 0 4.5 0 2 2.5 }
+}
+
+Type 'p' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 8 2 -4.5 }
+Path Front
+{ 2 2.5 4.5 0 7 0 9.5 2.5 9.5 5.5 7 8 4.5 8 2 6 }
+}
+
+Type 'V' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 6 0 10 12 }
+}
+
+Type 'n' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 9 2 0 }
+Path Front
+{ 2 5.5 4.5 8 7 8 9.5 5.5 9.5 0 }
+}
+
+
+Part void { Name 41 Loc { 800 300 }
+NameData { 0 800 300 0 }
+ValueData { 0 800 300 0 }
+Pad A { Circle 75 }
+Pin 41 { A A A 800 300 45 P }
+}
+Part VIA { Name VIA8 Loc { 1130 430 }
+}
+Part void { Name 28 Loc { 1000 700 }
+NameData { 0 1000 700 0 }
+ValueData { 0 1000 700 0 }
+Pad A { Circle 75 }
+Pin 28 { A A A 1000 700 45 P }
+}
+Part void { Name 1 Loc { 1000 1100 }
+NameData { 0 1000 1100 0 }
+ValueData { 0 1000 1100 0 }
+Pad A { Circle 75 }
+Pin 1 { A A A 1000 1100 45 P }
+}
+Part VIA { Name VIA3 Loc { 1300 100 }
+}
+Part VIA { Name VIA4 Loc { 100 100 }
+}
+Part void { Name 39 Loc { 600 300 }
+NameData { 0 600 300 0 }
+ValueData { 0 600 300 0 }
+Pad A { Circle 75 }
+Pin 39 { A A A 600 300 45 P }
+}
+Part void { Name 3 Loc { 1000 900 }
+NameData { 0 1000 900 0 }
+ValueData { 0 1000 900 0 }
+Pad A { Circle 75 }
+Pin 3 { A A A 1000 900 45 P }
+}
+Part void { Name 23 Loc { 500 400 }
+NameData { 0 500 400 0 }
+ValueData { 0 500 400 0 }
+Pad A { Circle 75 }
+Pin 23 { A A A 500 400 45 P }
+}
+Part VIA { Name VIA10 Loc { 800 490 }
+}
+Part void { Name 37 Loc { 1300 1100 }
+NameData { 0 1300 1100 0 }
+ValueData { 0 1300 1100 0 }
+Pad A { Circle 75 }
+Pin 37 { A A A 1300 1100 45 P }
+}
+Part void { Name 36 Loc { 1100 1100 }
+NameData { 0 1100 1100 0 }
+ValueData { 0 1100 1100 0 }
+Pad A { Circle 75 }
+Pin 36 { A A A 1100 1100 45 P }
+}
+Part void { Name 2 Loc { 1000 1000 }
+NameData { 0 1000 1000 0 }
+ValueData { 0 1000 1000 0 }
+Pad A { Circle 75 }
+Pin 2 { A A A 1000 1000 45 P }
+}
+Part void { Name 25 Loc { 700 400 }
+NameData { 0 700 400 0 }
+ValueData { 0 700 400 0 }
+Pad A { Circle 75 }
+Pin 25 { A A A 700 400 45 P }
+}
+Part void { Name 27 Loc { 1000 600 }
+NameData { 0 1000 600 0 }
+ValueData { 0 1000 600 0 }
+Pad A { Circle 75 }
+Pin 27 { A A A 1000 600 45 P }
+}
+Part VIA { Name VIA9 Loc { 1070 120 }
+}
+Part void { Name 12 Loc { 400 1000 }
+NameData { 0 400 1000 0 }
+ValueData { 0 400 1000 0 }
+Pad A { Circle 75 }
+Pin 12 { A A A 400 1000 45 P }
+}
+Part void { Name 16 Loc { 400 500 }
+NameData { 0 400 500 0 }
+ValueData { 0 400 500 0 }
+Pad A { Circle 75 }
+Pin 16 { A A A 400 500 45 P }
+}
+Part void { Name 20 Loc { 600 1000 }
+NameData { 0 600 1000 0 }
+ValueData { 0 600 1000 0 }
+Pad A { Circle 75 }
+Pin 20 { A A A 600 1000 45 P }
+}
+Part void { Name 17 Loc { 400 400 }
+NameData { 0 400 400 0 }
+ValueData { 0 400 400 0 }
+Pad A { Circle 75 }
+Pin 17 { A A A 400 400 45 P }
+}
+Part void { Name 14 Loc { 400 800 }
+NameData { 0 400 800 0 }
+ValueData { 0 400 800 0 }
+Pad A { Circle 75 }
+Pin 14 { A A A 400 800 45 P }
+}
+Part VIA { Name VIA5 Loc { 700 490 }
+}
+Part void { Name 53 Loc { 1100 900 }
+NameData { 0 1100 900 0 }
+ValueData { 0 1100 900 0 }
+Pad A { Circle 75 }
+Pin 53 { A A A 1100 900 45 P }
+}
+Part void { Name 30 Loc { 1000 800 }
+NameData { 0 1000 800 0 }
+ValueData { 0 1000 800 0 }
+Pad A { Circle 75 }
+Pin 30 { A A A 1000 800 45 P }
+}
+Part void { Name 15 Loc { 400 700 }
+NameData { 0 400 700 0 }
+ValueData { 0 400 700 0 }
+Pad A { Circle 75 }
+Pin 15 { A A A 400 700 45 P }
+}
+Part void { Name 35 Loc { 1300 900 }
+NameData { 0 1300 900 0 }
+ValueData { 0 1300 900 0 }
+Pad A { Circle 75 }
+Pin 35 { A A A 1300 900 45 P }
+}
+Part void { Name 6 Loc { 1000 500 }
+NameData { 0 1000 500 0 }
+ValueData { 0 1000 500 0 }
+Pad A { Circle 75 }
+Pin 6 { A A A 1000 500 45 P }
+}
+Part void { Name 54 Loc { 900 300 }
+NameData { 0 900 300 0 }
+ValueData { 0 900 300 0 }
+Pad A { Circle 75 }
+Pin 54 { A A A 900 300 45 P }
+}
+Part VIA { Name VIA1 Loc { 1300 1300 }
+}
+Part VIA { Name VIA2 Loc { 100 1300 }
+}
+Part void { Name 19 Loc { 500 1000 }
+NameData { 0 500 1000 0 }
+ValueData { 0 500 1000 0 }
+Pad A { Circle 75 }
+Pin 19 { A A A 500 1000 45 P }
+}
+Part void { Name 18 Loc { 400 300 }
+NameData { 0 400 300 0 }
+ValueData { 0 400 300 0 }
+Pad A { Circle 75 }
+Pin 18 { A A A 400 300 45 P }
+}
+Part void { Name 5 Loc { 1000 400 }
+NameData { 0 1000 400 0 }
+ValueData { 0 1000 400 0 }
+Pad A { Circle 75 }
+Pin 5 { A A A 1000 400 45 P }
+}
+Part void { Name 5 Loc { 1000 300 }
+NameData { 0 1000 300 0 }
+ValueData { 0 1000 300 0 }
+Pad A { Circle 75 }
+Pin 5 { A A A 1000 300 45 P }
+}
+Part void { Name 21 Loc { 700 1000 }
+NameData { 0 700 1000 0 }
+ValueData { 0 700 1000 0 }
+Pad A { Circle 75 }
+Pin 21 { A A A 700 1000 45 P }
+}
+Part void { Name 24 Loc { 600 400 }
+NameData { 0 600 400 0 }
+ValueData { 0 600 400 0 }
+Pad A { Circle 75 }
+Pin 24 { A A A 600 400 45 P }
+}
+Part void { Name 40 Loc { 700 300 }
+NameData { 0 700 300 0 }
+ValueData { 0 700 300 0 }
+Pad A { Circle 75 }
+Pin 40 { A A A 700 300 45 P }
+}
+Part void { Name 11 Loc { 400 1100 }
+NameData { 0 400 1100 0 }
+ValueData { 0 400 1100 0 }
+Pad A { Circle 75 }
+Pin 11 { A A A 400 1100 45 P }
+}
+Part void { Name 26 Loc { 800 400 }
+NameData { 0 800 400 0 }
+ValueData { 0 800 400 0 }
+Pad A { Circle 75 }
+Pin 26 { A A A 800 400 45 P }
+}
+TextPart { Name G Lay { S 1 1.0 } Loc { 13.06286m 23.25914m 90 } Size { 30 } }
+TextPart { Name raw+ Lay { S 1 1.0 } Loc { 910 135 90 } Size { 35 } }
+TextPart { Name Vsig Lay { S 1 1.0 } Loc { 17.76412m 20.97088m 90 } Size { 35 } }
+TextPart { Name 12v+ Lay { S 1 1.0 } Loc { 615 125 90 } Size { 35 } }
+TextPart { Name ^^^^FORWARD^^^^ Lay { S 1 1.0 } Loc { 12.11943m 1240 360 } Size { 40
+} }
+TextPart { Name OSD Lay { S 1 1.0 } Loc { 1125 650 90 } Size { 35 } }
+TextPart { Name E2 Lay { S 1 1.0 } Loc { 31.64114m 1070 90 } Size { 40 } }
+TextPart { Name raw+ Lay { S 1 1.0 } Loc { 810 125 90 } Size { 35 } }
+TextPart { Name "signal distro v1.0" Lay { S 1 1.0 } Loc { 1330 265 90 } Size { 30 } }
+TextPart { Name n/a Lay { S 1 1.0 } Loc { 255 990 } Size { 35 } }
+TextPart { Name Asig Lay { S 1 1.0 } Loc { 20.47875m 445 90 } Size { 35 } }
+TextPart { Name E1 Lay { S 1 1.0 } Loc { 31.67743m 22.27943m 90 } Size { 40 } }
+TextPart { Name E2 Lay { S 1 1.0 } Loc { 23.80343m 27.10543m 90 } Size { 40 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 9.79714m 5.47914m } Size { 30 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 895 585 } Size { 35 } }
+TextPart { Name n/a Lay { S 1 1.0 } Loc { 255 390 } Size { 35 } }
+TextPart { Name E3 Lay { S 1 1.0 } Loc { 7.43857m 13.53457m 270 } Size { 40 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 510 11.21229m 90 } Size { 30 } }
+TextPart { Name 5v+ Lay { S 1 1.0 } Loc { 710 145 90 } Size { 35 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 11.90171m 17.41714m } Size { 30 } }
+TextPart { Name E4 Lay { S 1 1.0 } Loc { 30.33486m 1070 90 } Size { 40 } }
+TextPart { Name n/a Lay { S 1 1.0 } Loc { 1060.5 993 } Size { 35 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 11.75657m 22.58786m } Size { 30 } }
+TextPart { Name 12v+ Lay { S 1 1.0 } Loc { 615 825 90 } Size { 35 } }
+TextPart { Name Asig Lay { S 1 1.0 } Loc { 20.35175m 21.05025m 90 } Size { 35 } }
+TextPart { Name 12v+ Lay { S 1 1.0 } Loc { 840 685 } Size { 35 } }
+TextPart { Name raw+ Lay { S 1 1.0 } Loc { 600 445 90 } Size { 35 } }
+TextPart { Name "power input" Lay { S 1 1.0 } Loc { 485 80 } Size { 35 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 23.25914m 22.56971m } Size { 30 } }
+TextPart { Name Vsig Lay { S 1 1.0 } Loc { 700 445 90 } Size { 35 } }
+TextPart { Name E4 Lay { S 1 1.0 } Loc { 7.76514m 1140 270 } Size { 40 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 25.03714m 5.55171m } Size { 30 } }
+TextPart { Name E3 Lay { S 1 1.0 } Loc { 30.40743m 22.27943m 90 } Size { 40 } }
+TextPart { Name 5v+ Lay { S 1 1.0 } Loc { 465 785 } Size { 35 } }
+TextPart { Name E1 Lay { S 1 1.0 } Loc { 28.12143m 12.04686m 90 } Size { 40 } }
+TextPart { Name G Lay { S 1 1.0 } Loc { 12.26457m 5.56986m } Size { 30 } }
+TextPart { Name rotorgarage.com Lay { S 1 1.0 } Loc { 32.49749m 6.43709m 90 } Size { 40
+} }
+TextPart { Name Vsig Lay { S 1 1.0 } Loc { 835 797.5 } Size { 35 } }
+Part void { Name 22 Loc { 800 1000 }
+NameData { 0 800 1000 0 }
+ValueData { 0 800 1000 0 }
+Pad A { Circle 75 }
+Pin 22 { A A A 800 1000 45 P }
+}
+Part VIA { Name VIA6 Loc { 400 900 }
+}
+Part void { Name 54 Loc { 500 300 }
+NameData { 0 500 300 0 }
+ValueData { 0 500 300 0 }
+Pad A { Circle 75 }
+Pin 54 { A A A 500 300 45 P }
+}
+
+
+
+Layer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 56000 2000 1500 Invisible
+
+}
+Layer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 0 64000 Invisible
+
+}
+
+SilkLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+SilkLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Visible
+
+}
+
+MaskLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Invisible
+
+}
+MaskLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Invisible
+
+}
+
+AuxLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+AuxLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Visible
+
+}
+
+PinChange { 0 1130 430 
+Hole { 36 P } }
+PinChange { 0 1300 100 
+Hole { 3.20m P } }
+PinChange { 0 100 100 
+Hole { 3.20m P } }
+PinChange { 0 800 490 
+Hole { 36 P } }
+PinChange { 0 1070 120 
+Hole { 36 P } }
+PinChange { 0 700 490 
+Hole { 36 P } }
+PinChange { 0 1300 1300 
+Hole { 3.20m P } }
+PinChange { 0 100 1300 
+Hole { 3.20m P } }
+PinChange { 0 400 900 
+Hole { 45 P } }
+
+PadChange { 1 0 800 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 22-22 Surround 511 }
+PadChange { 1 0 400 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P VIA6-1 Surround 511 }
+PadChange { 1 0 500 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 54-54 Surround 511 }
+PadChange { 1 0 800 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 41-41 Surround 511 }
+PadChange { 1 0 1000 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 1-1 Surround 511 }
+PadChange { 1 0 1000 700 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 28-28 Surround 511 }
+PadChange { 1 0 1300 100 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA3-1 Surround 511 }
+PadChange { 1 0 100 100 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA4-1 Surround 511 }
+PadChange { 1 0 600 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 39-39 Surround 511 }
+PadChange { 1 0 1000 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 3-3 Surround 511 }
+PadChange { 1 0 500 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 23-23 Surround 511 }
+PadChange { 1 0 1300 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 37-37 Surround 511 }
+PadChange { 1 0 1100 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 36-36 Surround 511 }
+PadChange { 1 0 1000 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 2-2 Surround 511 }
+PadChange { 1 0 700 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 25-25 Surround 511 }
+PadChange { 1 0 1000 600 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 27-27 Surround 511 }
+PadChange { 1 0 400 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 12-12 Surround 511 }
+PadChange { 1 0 400 500 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 16-16 Surround 511 }
+PadChange { 1 0 600 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 20-20 Surround 511 }
+PadChange { 1 0 400 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 17-17 Surround 511 }
+PadChange { 1 0 400 800 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 14-14 Surround 511 }
+PadChange { 1 0 1100 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 53-53 Surround 511 }
+PadChange { 1 0 1000 800 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 30-30 Surround 511 }
+PadChange { 1 0 400 700 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 15-15 Surround 511 }
+PadChange { 1 0 1300 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 35-35 Surround 511 }
+PadChange { 1 0 1000 500 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 6-6 Surround 511 }
+PadChange { 1 0 900 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 54-54 Surround 511 }
+PadChange { 1 0 1300 1300 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA1-1 Surround 511 }
+PadChange { 1 0 100 1300 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA2-1 Surround 511 }
+PadChange { 1 0 500 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 19-19 Surround 511 }
+PadChange { 1 0 400 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 18-18 Surround 511 }
+PadChange { 1 0 1000 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 5-5 Surround 511 }
+PadChange { 1 0 1000 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 5-5 Surround 511 }
+PadChange { 1 0 700 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 21-21 Surround 511 }
+PadChange { 1 0 600 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 24-24 Surround 511 }
+PadChange { 1 0 700 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 40-40 Surround 511 }
+PadChange { 1 0 400 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 11-11 Surround 511 }
+PadChange { 1 0 800 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 26-26 Surround 511 }
+PadChange { 2 0 800 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 22-22 Surround 511 }
+PadChange { 2 0 400 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P VIA6-1 Surround 511 }
+PadChange { 2 0 500 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 54-54 Surround 511 }
+PadChange { 2 0 800 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 41-41 Surround 511 }
+PadChange { 2 0 1000 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 1-1 Surround 511 }
+PadChange { 2 0 1000 700 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 28-28 Surround 511 }
+PadChange { 2 0 1300 100 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA3-1 Surround 511 }
+PadChange { 2 0 100 100 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA4-1 Surround 511 }
+PadChange { 2 0 600 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 39-39 Surround 511 }
+PadChange { 2 0 1000 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 3-3 Surround 511 }
+PadChange { 2 0 500 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 23-23 Surround 511 }
+PadChange { 2 0 1300 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 37-37 Surround 511 }
+PadChange { 2 0 1100 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 36-36 Surround 511 }
+PadChange { 2 0 1000 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 2-2 Surround 511 }
+PadChange { 2 0 700 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 25-25 Surround 511 }
+PadChange { 2 0 1000 600 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 27-27 Surround 511 }
+PadChange { 2 0 400 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 12-12 Surround 511 }
+PadChange { 2 0 400 500 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 16-16 Surround 511 }
+PadChange { 2 0 600 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 20-20 Surround 511 }
+PadChange { 2 0 400 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 17-17 Surround 511 }
+PadChange { 2 0 400 800 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 14-14 Surround 511 }
+PadChange { 2 0 1100 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 53-53 Surround 511 }
+PadChange { 2 0 1000 800 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 30-30 Surround 511 }
+PadChange { 2 0 400 700 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 15-15 Surround 511 }
+PadChange { 2 0 1300 900 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 35-35 Surround 511 }
+PadChange { 2 0 1000 500 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 6-6 Surround 511 }
+PadChange { 2 0 900 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 54-54 Surround 511 }
+PadChange { 2 0 1300 1300 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA1-1 Surround 511 }
+PadChange { 2 0 100 1300 
+Pad { Circle 4m Thermal Circle 70 Spacing 10 } P VIA2-1 Surround 511 }
+PadChange { 2 0 500 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 19-19 Surround 511 }
+PadChange { 2 0 400 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 18-18 Surround 511 }
+PadChange { 2 0 1000 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 5-5 Surround 511 }
+PadChange { 2 0 1000 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 5-5 Surround 511 }
+PadChange { 2 0 700 1000 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 21-21 Surround 511 }
+PadChange { 2 0 600 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 24-24 Surround 511 }
+PadChange { 2 0 700 300 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 40-40 Surround 511 }
+PadChange { 2 0 400 1100 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 11-11 Surround 511 }
+PadChange { 2 0 800 400 
+Pad { Circle 75 Thermal Circle 70 Spacing 10 } P 26-26 Surround 511 }
+
+
+Path L 1 { 1300 900 W 40 S 10 1300 500 1000 500 }
+Path L 1 { 400 1100 W 40 S 10 500 1200 1000 1200 1100 1100 }
+Path L 1 { 400 900 W 40 S 10 300 900 100 1300 }
+Path L 1 { 1000 1100 W 40 S 10 1100 1000 1200 1000 1300 1100 }
+Path L 1 { 900 330 W 40 S 10 900 590 600 590 600 430 }
+Path L 1 { 700 270 W 40 S 10 700 150 230 150 230 800 370 800 }
+Path L 1 { 970 800 W 40 S 10 700 800 700 970 }
+Path L 1 { 1070 120 W 39 S 10 1130 160 1130 410 }
+Path L 1 { 800 410 W 39 S 10 800 470 }
+Path L 1 { 700 410 W 39 S 10 700 470 }
+Path L 1 { 600 980 W 39 S 10 600 700 970 700 }
+Path L 2 { 500 900 W 40 S 10 400 900 }
+Path L 2 { 500 700 W 40 S 10 400 700 }
+Path L 2 { 800 1000 W 40 S 10 800 500 }
+Path L 2 { 700 1000 W 40 S 10 700 500 }
+Path L 2 { 400 500 W 40 S 10 300 600 300 1100 400 1200 1100 1200 1200 1100 1200
+1000 1100 900 }
+Path L 2 { 100 1300 W 40 S 10 1300 1300 }
+Path L 2 { 1000 300 W 40 S 10 1300 100 }
+Path L 2 { 500 320 W 40 S 10 500 970 }
+Path L 2 { 380 280 W 40 S 10 160 130 }
+Path L 2 { 980 900 W 40 S 10 910 900 { 900 390 990 320 }
+910 1020 820 1100 500 1100 500 1030 }
+Path L 2 { 400 300 W 40 S 10 490 300 }
+Path L 2 { 840 300 W 40 S 10 880 300 }
+Path L 2 { 1130 440 W 40 S 10 1130 700 1030 700 }
+Path L 2 { 600 280 W 39 S 10 600 120 1050 120 }
+Path L 2 { 910 600 W 39 S 10 970 600 }
+
+Path S 2 { 1420 0 W 20 S 10 0 0 }
+Path S 2 { 0 1420 W 20 S 10 1420 1420 }
+Path S 2 { 0 1420 W 20 S 10 0 0 }
+Path S 2 { 1420 1410 W 20 S 10 1420 10 }
+
+
+
+
+End
