@@ -1,3 +1,5 @@
+# No longer supported - Legacy
+
 # Custom Signal Distribution Board
 
 An experiment in cleaning up the wiring mess of a quadcoptor and the standardization of all connections to increase component interchangeability.
